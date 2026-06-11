@@ -27,10 +27,11 @@ public class StringCountSpecialChars {
 			}
 		}
 		
-		for(char c: map.keySet())
-		{
-			System.out.println(c+":"+map.get(c));
-		}
+		System.out.println(map);
+//		for(char c: map.keySet())
+//		{
+//			System.out.println(c+":"+map.get(c));
+//		}
 	}
 
 }
