@@ -5,7 +5,7 @@ public class ArrayLeadersProblem {
 
 		int arr[] = { 16, 17, 4, 3, 5, 2 };
 		int length = arr.length;
-		int maxRight = arr[length];
+		int maxRight = arr[length-1];
 
 		System.out.print(maxRight);
 
